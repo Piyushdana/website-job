@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ .container{
+     border-radius: 12px;
+ }
+
+ .header{
+     margin-top: 0.7rem;
+     align-items: center;
+  }
+
+ .header>h1{
+     margin-left: 66px;
+     margin-top: 25px;
+     
+ }
+.menu>ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 16rem;
+    margin-top: -22px;
+    font-size: 1.2rem;
+}
+.menu>ul>li{
+   width:11rem;
+   list-style: none;
+
+}
+
+.btn{
+    margin-left: 80rem;
+    margin-top: -1.6rem;
+}
+
+.btn>input{
+    width: 7.5rem;
+    height: 1.9rem;
+     
+}
+.btn-1{
+    background-color: orange;
+    width: 6rem;
+    height: 2rem;
+}
+
+.paragraph{
+    margin-top: 10rem;
+    margin-left: 49rem;
+    width: 34rem;
+}
+
+img{
+    width: 42rem;
+    margin-top: -35rem;
+    height: 27rem;
+    margin-left: 3.5rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.2rem;
+}
+
+
+.search-bar{
+    margin-left: 8rem;
+    margin-top: 3rem;
+    background: rgba(0, 0, 0, 0.808);
+    padding: 1.5rem;
+    width: 75rem;
+    height: 6rem;
+}
+
+.search-bar input{
+    margin-right: 11rem;
+    padding-right: 2.5rem;
+    height: 2rem;
+    border-bottom-right-radius: 12px;
+    width: 11rem;
+    
+}
+
+.search-btn{
+    margin-left: 31rem;
+    margin-top: 2rem;
+    width: 10rem;
+     border-bottom-left-radius: 12px;
+     border-top-right-radius: 12px;
+    height: 3rem;
+    
+}
+.search-btn{
+    background-color: orange;
+}
+
+.search-btn:hover{
+    color: orangered;
+}
+
